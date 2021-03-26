@@ -1,0 +1,11 @@
+---
+application:
+  name: "mh-node-red"
+  project: "MountainsHideaway_smart"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-mh-node-red"
+  routes:
+  - application_name: "mh-node-red"
+    paths:
+    - "/*"
